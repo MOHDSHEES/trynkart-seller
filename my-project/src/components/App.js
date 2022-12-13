@@ -72,7 +72,7 @@ function App() {
       className="main"
       //  onClick={close}
     >
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <div>
           {/* <Login />
           <SignUp />

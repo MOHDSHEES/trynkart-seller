@@ -1,0 +1,106 @@
+#progressbar li {
+  list-style-type: none;
+  font-size: 15px;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-weight: 400;
+}
+
+#progressbar #account:before {
+  font-family: FontAwesome;
+  content: "\f13e";
+}
+
+#progressbar #Address:before {
+  font-family: FontAwesome;
+  content: "\f2b9";
+}
+
+#progressbar #GSTIN:before {
+  font-family: FontAwesome;
+  content: "\f2bb";
+}
+
+#progressbar #bank:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#instagram:before {
+  font-family: FontAwesome;
+  content: "\f16d";
+  color: white;
+}
+#facebook:before {
+  font-family: FontAwesome;
+  content: "\f09a";
+  color: white;
+}
+#google-plus:before {
+  font-family: FontAwesome;
+  content: "\f0d5";
+  color: white;
+}
+#linkedin:before {
+  font-family: FontAwesome;
+  content: "\f0e1";
+  color: white;
+}
+#twitter:before {
+  font-family: FontAwesome;
+  content: "\f099";
+  color: white;
+}
+#user:before {
+  font-family: FontAwesome;
+  content: "\f007";
+  padding-right: 10px;
+  font-weight: 900;
+  font-size: inherit;
+}
+#payment:before {
+  font-family: FontAwesome;
+  content: "\f09d";
+  padding-right: 10px;
+  font-weight: 900;
+  font-size: inherit;
+}
+#profile:before {
+  font-family: FontAwesome;
+  content: "\f2bd";
+  padding-right: 10px;
+  font-weight: 900;
+  font-size: inherit;
+  color: blue;
+}
+#star:before {
+  font-family: FontAwesome;
+  content: "\f005";
+  font-size: 15px;
+}
+#bank:before {
+  font-family: FontAwesome;
+  content: "\f09d";
+}
+#bag:before {
+  font-family: FontAwesome;
+  content: "\f290";
+}
+#heart:before {
+  font-family: FontAwesome;
+  content: "\f004";
+}
+#trash:before {
+  font-family: FontAwesome;
+  content: "\f1f8";
+}
+#greater-than:before {
+  font-family: FontAwesome;
+  content: "\f105";
+}
+.icon-hover:hover {
+  text-decoration: none;
+}
+.padding-icon {
+  padding: 5px 15px;
+}

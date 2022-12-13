@@ -31,9 +31,9 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static(path.join(__dirname, "/my-project/build")));
+app.use(express.static(path.join(__dirname, "./my-project/build")));
 app.get("*", (req, res) =>
-  res.sendFile(path.join(__dirname, "/my-project/build/index.html"))
+  res.sendFile(path.join(__dirname, "./my-project/build/index.html"))
 );
 
 app.use("/", userRoute);
