@@ -305,16 +305,16 @@ function SellerRegisteredNavbar() {
           <div className="d-flex flex-row ">
             <ul className="navbar-nav flex-row">
               <li className="nav-item active space  ">
-                <Link
+                <a
                   style={{ paddingRight: "10px" }}
                   className="nav-link"
                   // href=""
-                  to="https://trynkart.vercel.app/contact"
+                  href="https://trynkart.vercel.app/contact"
                   target="_blank"
                 rel="noreferrer"
                 >
                   Contact Us
-                </Link>
+                </a>
               </li>
               <li className="nav-item active space  ">
                 <a
