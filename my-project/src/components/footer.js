@@ -121,11 +121,11 @@ function Footer() {
             )}
             <p>
               <a
-                href="http://newtrynkart.herokuapp.com/"
+                href="https://trynkart.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                TryNkar
+                TryNkart
               </a>
             </p>
             <p>

@@ -74,7 +74,7 @@ function SingleOrderDetails() {
           style={{ margin: "20px 0" }}
           onClick={() =>
             window.open(
-              "http://newtrynkart.herokuapp.com/product/category/" +
+              "https://trynkart.vercel.app/product/category/" +
                 item.productId,
               "_blank"
             )
