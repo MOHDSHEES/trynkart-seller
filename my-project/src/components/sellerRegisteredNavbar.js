@@ -309,7 +309,9 @@ function SellerRegisteredNavbar() {
                   style={{ paddingRight: "10px" }}
                   className="nav-link"
                   // href=""
-                  to="/contact"
+                  to="/https://trynkart.vercel.app/contact"
+                  target="_blank"
+                rel="noreferrer"
                 >
                   Contact Us
                 </Link>
