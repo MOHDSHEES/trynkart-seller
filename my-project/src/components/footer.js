@@ -125,7 +125,7 @@ function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                TryNkart
+                TryNkar
               </a>
             </p>
             <p>
@@ -169,7 +169,7 @@ function Footer() {
             marginBottom: "20px",
           }}
         />
-        © 2021 Copyright:
+        © 2022 Copyright:
         <a href="/"> TryNcart.com</a>
       </div>
     </footer>
